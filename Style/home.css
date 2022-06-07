@@ -33,6 +33,24 @@
 .takes:hover{
     width:255px !important;
 }
+.takes1{
+    background-color: white !important;
+    color: black !important;
+    font-size: x-large !important;
+    border-radius: 40px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    margin: 0 auto !important;
+    width: 280px !important;
+    display: inline-block !important;
+    transition: width 1s !important;
+}
+#impo{
+    background-color: yellow !important;
+}
+.takes1:hover{
+    width:285px !important;
+}
 .topmt{
     margin-top: 150px !important;
 }
@@ -62,8 +80,9 @@ box-shadow: 20px 20px white !important;
     margin: 0 auto !important;
 }
 .upMt{
-    margin-top: 200px !important;
+    margin-top: 150px !important;
     position: relative;
+    
 }
 .upper{
     position: absolute !important;
@@ -95,13 +114,40 @@ box-shadow: 20px 20px white !important;
     height:160px !important;
     box-shadow: 20px 20px white !important;
     }
-    /* .lastClip{
+    .lastClip{
         position: relative !important;
-    } */
+    }
     .lastClips{
-        
+        position:absolute !important;
+        bottom: 10px !important;
         clip-path: polygon(0 73%, 0 100%, 100% 100%) !important;
-        width: 100% !important;
+        width: 100wh !important;
         height: 280px !important;
         background-color: black !important;
     }
+    .plushw{
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .foDes{
+        display: inline-block !important;
+        height: 60px !important;
+        border-radius: 40px !important;
+        margin-top:20px !important;
+        font-size: x-large !important;
+        width:700px !important;
+    }
+    .listed ul{
+        list-style-type: none !important;
+       
+    }
+    .listed ul li{
+        float: left !important;
+        margin: 0 10px !important;
+    }
+    .listed ul li a{
+        color: white !important;
+        font-weight: 800 !important;
+        text-decoration: none !important;
+    }
+    
