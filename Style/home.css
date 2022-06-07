@@ -1,0 +1,107 @@
+#backImg{
+    background-image: url('../Images/header.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+   height: 100vh !important;
+   position: relative;
+}
+.rt{
+    clip-path: polygon(100% 73%, 0% 100%, 100% 100%);
+    position:absolute;
+    bottom: 0;
+    background-color: yellow;
+    width: 100%;
+    height: 280px;
+}
+.cenfix{
+   
+    justify-content: center !important;
+    align-items: center !important;
+}
+.takes{
+    background-color: white !important;
+    color: black !important;
+    font-size: x-large !important;
+    border-radius: 40px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    margin: 0 auto !important;
+    width: 250px !important;
+    display: inline-block !important;
+    transition: width 1s !important;
+}
+.takes:hover{
+    width:255px !important;
+}
+.topmt{
+    margin-top: 150px !important;
+}
+.arrowHw{
+    height: 60px !important;
+    width: 80px !important;
+    margin: 0 auto !important;
+    color: orange !important;
+}
+.takeswh{
+    height: 650px !important;
+    border: none !important;
+    outline: none !important;
+    width: 100% !important;
+    transition: width 0.5s,height 0.5s !important;
+    box-shadow: 5px 5px white !important;
+}
+
+.takeswh:hover{
+width: 660px !important;
+height:653px !important;
+box-shadow: 20px 20px white !important;
+}
+.firehw{
+    height: 100px !important;
+    width: 100px !important;
+    margin: 0 auto !important;
+}
+.upMt{
+    margin-top: 200px !important;
+    position: relative;
+}
+.upper{
+    position: absolute !important;
+    /* top:0 !important; */
+    bottom: 400px !important;
+    /* background-color: blueviolet; */
+}
+.marryHw{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto !important;
+}
+.marginTop{
+    margin-top: 200px !important;
+}
+.takeswhA{
+    height: 150px !important;
+    border: none !important;
+    outline: none !important;
+    width: 100% !important;
+    transition: width 0.5s,height 0.5s !important;
+    box-shadow: 5px 5px white !important;
+    /* align-items: center !important; */
+    justify-content: center !important;
+    
+}
+.takeswhA:hover{
+    width: 660px !important;
+    height:160px !important;
+    box-shadow: 20px 20px white !important;
+    }
+    /* .lastClip{
+        position: relative !important;
+    } */
+    .lastClips{
+        
+        clip-path: polygon(0 73%, 0 100%, 100% 100%) !important;
+        width: 100% !important;
+        height: 280px !important;
+        background-color: black !important;
+    }
