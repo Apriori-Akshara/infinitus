@@ -9,7 +9,7 @@ function tryDo(){
     document.getElementById("closed").innerHTML='CLOSE';
      }else{
          valsZ=false;
-     document.getElementById("lasty").style.top='-900px';
+     document.getElementById("lasty").style.top='-1200px';
      document.getElementById("closed").innerHTML='MENU';
    
 }
