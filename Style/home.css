@@ -164,7 +164,7 @@ box-shadow: 20px 20px white !important;
         background-size: cover ;
         height: 100vh ;
         position: fixed;
-        top:-100%;
+        top:-1000%;
         left:0 ;
         width:100% ;
         justify-content: center;
@@ -318,3 +318,6 @@ background-color: yellow;
        width:300px;
     }
 }
+/* #oneLavels{
+    display: none;
+} */
