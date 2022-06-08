@@ -264,7 +264,19 @@ nav ul li a{
         line-height:30px !important;
         font-weight: bolder !important;
     }
+    #backImg{
+       height: 60vh !important;
+    }
+    .mobileFont{
+        font-size: 2.6rem !important;
+    }
 
+}
+@media (max-width:425px) {
+    #backImg{
+        max-height: 50vh !important;
+        min-height: 40vh !important;
+     }
 }
 .slider2hw{
     height: 560px;
@@ -321,3 +333,16 @@ background-color: yellow;
 /* #oneLavels{
     display: none;
 } */
+strong::after{
+    border-image:url(../Images/longArro.svg) !important;
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        display: block;
+        text-align: center;
+        bottom: -40px;
+        left: 50%;
+        background-size: contain;
+
+}
