@@ -397,3 +397,17 @@ strong::after{
     }
 } 
 
+#logo{
+    height: 400px !important;
+    width: 550px !important;
+    /* background-color: #ffd300 !important; */
+    position:relative;
+    top:-135px;
+}
+#logos{
+    height: 400px !important;
+    width: 550px !important;
+    position:relative;
+    top:-135px;
+  
+}
