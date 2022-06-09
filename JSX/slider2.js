@@ -42,7 +42,7 @@ slider2.map((item,index)=>(
 
     </div>
      <div class="row  justify-content-center slider2hw" 
-     style="background-color:yellow;"
+     style="background-color:#ffd300;"
      >
          <div class=" col-sm-8 cenfix">
         

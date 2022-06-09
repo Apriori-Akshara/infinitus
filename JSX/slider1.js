@@ -37,7 +37,7 @@ slider1.map((item,index)=>(
 
     <div class="item" >
     <div class="row p-5 justify-content-center"
-    style="background-color:yellow;height: 540px;"
+    style="background-color:#ffd300;height: 540px;"
     >
         <div class=" col-sm-8 ">
          <div class="row text-center">

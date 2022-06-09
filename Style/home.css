@@ -9,7 +9,7 @@
     clip-path: polygon(100% 73%, 0% 100%, 100% 100%);
     position:absolute;
     bottom: 0;
-    background-color: yellow;
+    background-color: #ffd300;
     width: 100%;
     height: 280px;
 }
@@ -46,7 +46,7 @@
     transition: width 1s !important;
 }
 #impo{
-    background-color: yellow !important;
+    background-color: #ffd300 !important;
 }
 .takes1:hover{
     width:285px !important;
@@ -62,7 +62,7 @@
     height: 60px !important;
     width: 80px !important;
     margin: 0 auto !important;
-    color: orange !important;
+    color: #ffd300 !important;
 }
 .takeswh{
     height: 650px !important;
@@ -113,11 +113,10 @@ box-shadow: 20px 20px white !important;
     /* align-items: center !important; */
     justify-content: center !important;
     
+    
 }
 .takeswhA:hover{
-    width: 660px !important;
-    height:160px !important;
-    box-shadow: 20px 20px white !important;
+    box-shadow: 50px 50px white !important;
     }
     .lastClip{
         position: relative !important;
@@ -157,8 +156,9 @@ box-shadow: 20px 20px white !important;
         font-weight: 800 !important;
         text-decoration: none !important;
     }
+   
     nav{
-        background-color: yellow;
+        background-color: #ffd300;
         background-image: url('../Images/line.svg');
         background-repeat: no-repeat ;
         background-size: cover ;
@@ -178,10 +178,11 @@ box-shadow: 20px 20px white !important;
     }
 nav ul li a{
         color: black ;
-        font-weight: bolder ;
+        font-weight:500;
         text-decoration: none !important;
         font-size: 3.5rem ;
         line-height: 80px;
+        font-family:'Titan One',cursive !important;
 }
 #alupper{
     z-index: 999999 ;
@@ -214,7 +215,7 @@ nav ul li a{
     width: 100% !important;
     /* top:-199x!important; */
     clip-path: polygon(100% 73%, 0% 100%, 100% 100%);
-    background-color: yellow;
+    background-color: #ffd300;
     width: 100% !important;
     height: 200px;
     background-size: cover !important;
@@ -317,22 +318,37 @@ position: fixed;
 z-index:9999999999999999;
 width: 100%;
 height: 100vh;
-background-color: yellow;
+background-color: #ffd300;
 }
 .loads{
     color: black !important;
-    width: 200px;
+    width: 100px;
     height: 300px;
-    animation: moved 3s linear infinite !important;
+    animation: moved 1.5s linear infinite !important;
 }
 @keyframes moved {
     50%{
-       width:300px;
+       width:400px;
     }
 }
-/* #oneLavels{
-    display: none;
-} */
+.linesA{
+    animation: headers 10s linear !important;
+}
+@keyframes headers {
+    50%{
+        transform: rotate(10deg);
+    }
+}
+.plusA{
+    animation: header 10s linear !important;
+}
+@keyframes header {
+    50%{
+        transform: translateY(40px);
+    }
+}
+
+
 strong::after{
     border-image:url(../Images/longArro.svg) !important;
         content: '';
@@ -346,3 +362,38 @@ strong::after{
         background-size: contain;
 
 }
+.mobileFont{
+    font-family:'Titan One',cursive !important;
+   
+    color:white ;
+    font-weight:500;
+    font-size: 3.5rem;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+/* #butFixdA{
+    display: none !important;
+} */
+
+.moveupwardsA{
+    animation: crisis 7.4s ease;
+
+}
+.moveupwardsB{
+    animation: crisis 9.1s ease;
+
+}
+.moveupwardsC{
+    animation: crisis 10s ease;
+
+}
+
+@keyframes crisis {
+    25%{
+        transform: translateY(650px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+} 
+

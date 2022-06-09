@@ -26,7 +26,7 @@ change.map((item,index)=>(
                         </div>
                         <div class="col text-start">
                             <h3 class="mt-3"
-                            style="color:black;font-weight:900;"
+                            style="color:black;font-weight:900;font-family:'Titan One',cursive;"
                             >
                          ${item.title1}
                             </h3>

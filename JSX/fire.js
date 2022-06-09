@@ -26,20 +26,20 @@ const fires=[
 const data1=document.getElementById("two");
 fires.map((item,index)=>(
     data1.innerHTML += `
-    <div class="col-lg-4 col-md-5">
+    <div class="col-lg-4 col-md-5" data-aos="slide-up">
     <div class="row text-center">
      <img src=${item.src} class="img-fluid firehw">
     </div>
     <div class="row text-center mt-3">
       <h1
-    style="color:yellow;font-weight:bolder;font-size:3rem;"
+    style="color:#ffd300;font-weight:bolder;font-size:3rem;font-family:'Titan One',cursive;"
       >
           ${item.title1}
       </h1>
     </div>
     <div class="row text-center">
       <h5
-      style="font-weight:700 ;font-size: x-large;"
+      style="font-weight:700 ;font-size: x-large;font-family:'Titan One',cursive;"
       >
       ${item.title2}
       </h5>

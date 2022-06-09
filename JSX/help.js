@@ -3,7 +3,7 @@ const helpZ=[
         id:"1",
         src:"./Images/partner.png",
         title1:" I am a partner",
-      title2:"Omolola was a midwife and wanted to build tech skills to change career. Apriori gave her the opportunity to do that. She is now a full-stack Developer at Patchwork Health.",
+      title2:"Omolola was a midwife and wanted to  Apriori gave her the opportunity to do that. She is now a full-stack Developer at Patchwork Health.",
        
     },
     {
@@ -35,7 +35,7 @@ helpZ.map((item,index)=>(
                   </h5>
         </div>
         <div class="row text-center mt-3">
-         <img src="./Images/arro.svg" alt="arrow" class="img-fluid arrowHw">
+         <img src="./Images/yelloarro.svg" alt="arrow" class="img-fluid arrowHw">
         </div>
     </div>
 </div>
