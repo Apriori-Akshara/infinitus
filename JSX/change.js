@@ -25,7 +25,7 @@ change.map((item,index)=>(
                         <img src=${item.src} alt="" class="img-fluid">
                         </div>
                         <div class="col text-start">
-                            <h3 class="mt-3"
+                            <h3 class="mt-3" id="yelarro"
                             style="color:black;font-weight:900;font-family:'Titan One',cursive;"
                             >
                          ${item.title1}

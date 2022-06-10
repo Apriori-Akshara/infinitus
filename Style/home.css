@@ -184,6 +184,19 @@ nav ul li a{
         line-height: 80px;
         font-family:'Titan One',cursive !important;
 }
+nav ul li a:hover{
+    color: black !important;
+}
+ nav ul li a:after{
+    content: '' !important;
+    display: block !important;
+    height:15px !important;
+    width:100%;
+    background-image: url(../Images/whiteArro.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center bottom !important;
+
+}
 #alupper{
     z-index: 999999 ;
     position: fixed ;
@@ -411,3 +424,23 @@ strong::after{
     top:-135px;
   
 }
+#botArro:after{
+content: '';
+display: block;
+height: 30px;
+background-image: url(../Images/longArro.svg);
+background-repeat: no-repeat;
+background-position: center bottom;
+margin-left:-160px;
+}
+#yelarro:after{
+   
+    content: '';
+    clear: both;
+    display: block;
+    height: 30px;
+    background-image: url(../Images/longArro.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+   
+    }
