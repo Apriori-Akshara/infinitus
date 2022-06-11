@@ -39,7 +39,7 @@ slider1.map((item,index)=>(
     <div class="row p-5 justify-content-center"
     style="background-color:#ffd300;height: 540px;"
     >
-        <div class=" col-sm-8 ">
+        <div class=" col-sm-8 arroSet">
          <div class="row text-center">
         <h2 class="fontSiz"
         style="font-weight:800;"

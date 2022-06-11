@@ -44,7 +44,7 @@ slider2.map((item,index)=>(
      <div class="row  justify-content-center slider2hw at709Hdec" 
      style="background-color:#ffd300;"
      >
-         <div class=" col-sm-8 cenfix">
+         <div class=" col-sm-8 cenfix arroFix">
         
           <div class="row text-center marginTop">
              <p id="small0"

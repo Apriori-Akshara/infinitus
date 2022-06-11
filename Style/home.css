@@ -188,7 +188,7 @@ nav ul li a{
         color: black ;
         font-weight:500;
         text-decoration: none !important;
-        font-size: 3.5rem ;
+        font-size: 3.1rem ;
         line-height: 80px;
         font-family:'Titan One',cursive !important;
 }
@@ -207,7 +207,7 @@ nav ul li a:hover{
 #alupper{
     z-index: 999999 ;
     position: fixed ;
-    top: 10px ;
+    top: 30px ;
     right: 20px ;
 }    
 .menu-btn{
@@ -431,7 +431,8 @@ strong::after{
     width: 100px !important;
    
     position:relative;
-    top:10px;
+    top:30px;
+    left:20px
 }
 #logos{
     height: 100px !important;
@@ -457,4 +458,64 @@ margin-left:-160px;
     background-repeat: no-repeat;
     background-position: center bottom;
    
+    }
+    .mobileFont{
+        font-size: 4.5rem !important;
+    }
+    .arroSet::after{
+        background-image: url('../Images/cardArro.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        content: '';
+    position: absolute;
+    
+    width: 300px;
+    height: 320px;
+    display: block;
+    top:120px;
+   right:0;
+    transform: rotate(180deg);
+    }
+    .arroSet::before{
+        content: '';
+        position: absolute;
+        background-image: url('../Images/cardArro.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+       height: 320px;
+        display: block;
+        top:120px;
+        left: 0px;
+    }
+    .arroFix::after{
+        background-image: url('../Images/quotes.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        content: '';
+    position: absolute;
+    
+    width: 300px;
+    height: 320px;
+    display: block;
+    top:320px;
+   right:-20px;
+    transform: rotate(180deg);
+    z-index: 999999999;
+    }
+
+    .arroFix::before{
+        content: '';
+        position: absolute;
+        background-image: url('../Images/quotes.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+       height: 320px;
+        display: block;
+        top:320px;
+        left: 0px;
+        z-index: 999999999;
     }
