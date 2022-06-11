@@ -490,7 +490,7 @@ margin-left:-160px;
         left: 0px;
     }
     .arroFix::after{
-        background-image: url('../Images/quotes.svg');
+        background-image: url('../Images/leftArro.svg');
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -509,7 +509,7 @@ margin-left:-160px;
     .arroFix::before{
         content: '';
         position: absolute;
-        background-image: url('../Images/quotes.svg');
+        background-image: url('../Images/cuts.svg');
         background-size: cover;
         background-repeat: no-repeat;
         width: 300px;
