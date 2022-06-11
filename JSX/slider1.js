@@ -35,7 +35,7 @@ const data3=document.getElementById("four");
 slider1.map((item,index)=>(
     data3.innerHTML += `
 
-    <div class="item" >
+    <div class="item at709Hdec">
     <div class="row p-5 justify-content-center"
     style="background-color:#ffd300;height: 540px;"
     >

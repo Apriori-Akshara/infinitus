@@ -65,17 +65,42 @@
     color: #ffd300 !important;
 }
 .takeswh{
-    height: 650px !important;
+    height: 610px !important;
+   
     border: none !important;
+  
     outline: none !important;
     width: 100% !important;
     transition: width 0.5s,height 0.5s !important;
     box-shadow: 5px 5px white !important;
 }
+@media (max-width:1075px) and (min-width:768px) {
+    .takeswh{
+        height: 530px !important;
+    }
+}
+@media (max-width:425px) {
+    .takeswh{
+        box-shadow:none;
+        height: 610px !important;
+        width: 650px !important;
+    }
+    .takeswh:hover{
+        width: 200px !important;
+        height:611px !important;
+       
+        }
+}
+@media (max-width:767px) {
+    .at767mt{
+        margin-top: 50px !important;
+    }
+}
+
 
 .takeswh:hover{
 width: 660px !important;
-height:653px !important;
+height:620px !important;
 box-shadow: 20px 20px white !important;
 }
 .firehw{
@@ -141,7 +166,7 @@ box-shadow: 20px 20px white !important;
         margin-top:20px !important;
         font-size: x-large !important;
         max-width:700px !important;
-        min-width: 200px !important;
+        min-width: 100px !important;
     }
     .listed ul{
         list-style-type: none !important;
@@ -190,7 +215,6 @@ nav ul li a:hover{
  nav ul li a:after{
     content: '' !important;
     display: block !important;
-    height:15px !important;
     width:100%;
     background-image: url(../Images/whiteArro.svg) !important;
     background-repeat: no-repeat !important;
@@ -234,11 +258,20 @@ nav ul li a:hover{
     background-size: cover !important;
    
 }
+@media (max-width:709px) {
+    .at709Hdec{
+        height: 500px !important;
+        width: 100% !important;
+    }
+}
 
 @media (max-width:991px) {
     #at991noneA{
         display: none !important;
     } 
+    #at991noneB{
+        display: none !important;
+    }
     #nonebut991block{
         display: block !important;
       
@@ -411,18 +444,16 @@ strong::after{
 } 
 
 #logo{
-    height: 400px !important;
-    width: 550px !important;
-    /* background-color: #ffd300 !important; */
+    height: 100px !important;
+    width: 100px !important;
+   
     position:relative;
-    top:-135px;
+    top:10px;
 }
 #logos{
-    height: 400px !important;
-    width: 550px !important;
-    position:relative;
-    top:-135px;
-  
+    height: 100px !important;
+    width: 100px !important;
+ 
 }
 #botArro:after{
 content: '';

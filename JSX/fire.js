@@ -26,7 +26,7 @@ const fires=[
 const data1=document.getElementById("two");
 fires.map((item,index)=>(
     data1.innerHTML += `
-    <div class="col-lg-4 col-md-5" data-aos="slide-up">
+    <div class="col-lg-4 col-md-5 at767mt" data-aos="slide-up">
     <div class="row text-center">
      <img src=${item.src} class="img-fluid firehw">
     </div>
