@@ -79,23 +79,6 @@
         height: 530px !important;
     }
 }
-@media (max-width:425px) {
-    .takeswh{
-        box-shadow:none;
-        height: 610px !important;
-        width: 650px !important;
-    }
-    .takeswh:hover{
-        width: 200px !important;
-        height:611px !important;
-       
-        }
-}
-@media (max-width:767px) {
-    .at767mt{
-        margin-top: 50px !important;
-    }
-}
 
 
 .takeswh:hover{
