@@ -52,7 +52,7 @@
     width:285px !important;
 }
 .topmt{
-    margin-top: 80px !important;
+    margin-top:12.2vmax !important;
     
 }
 .uptop{
@@ -74,17 +74,17 @@
     transition: width 0.5s,height 0.5s !important;
     box-shadow: 5px 5px white !important;
 }
-@media (max-width:1075px) and (min-width:768px) {
+/* @media (max-width:1075px) and (min-width:768px) {
     .takeswh{
         height: 530px !important;
     }
-}
+} */
 
 
 .takeswh:hover{
-width: 660px !important;
-height:620px !important;
-box-shadow: 20px 20px white !important;
+
+height:630px !important;
+box-shadow: 50px 50px white !important;
 }
 .firehw{
     height: 100px !important;
