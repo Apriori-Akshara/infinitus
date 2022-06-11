@@ -5,6 +5,9 @@ $(document).ready(function(){
         loop:true,
         margin:2,
         nav:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        animateOut:'fadeOut',
         responsive:{
             320:{
                 items:1
