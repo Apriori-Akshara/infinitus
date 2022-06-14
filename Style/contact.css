@@ -1,0 +1,122 @@
+.contactheading{
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 2.22em;
+    margin: 0;
+    color:#33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.conhw{
+   
+   
+    height: 60vh;
+ 
+}
+#para{
+    font-size: 0.98rem;
+    font-weight: 300;
+   
+    margin: 0;
+    color:#33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.card1hw{
+    font-weight: 600;
+    color: #33475b;
+    font-size: x-large;
+}
+.card11hw{
+    color: #33475b;
+    font-size: large;
+}
+.imghw{
+    height:70px !important;
+    width:70px !important;
+    margin: 0 auto !important;
+}
+#num{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400;
+    letter-spacing: 2px !important;
+}
+#num1{
+    background-color: #ff7a59;
+    color: #fff;
+    border: 1px solid #ff7a59;
+
+    padding: 0.9em 1.388em;
+    font-size: .9375rem;
+    min-width: 8.555rem;
+    margin: auto;
+}
+#num:hover{
+    text-decoration: underline;
+}
+#support{
+    text-decoration: none;
+    font-size: larger;
+    margin-top:40px !important;
+    font-weight: 600;
+    word-spacing: 2px !important;
+}
+#topfix{
+    position: relative !important;
+    bottom: 80px !important;
+}
+.location{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.42em;
+    color:#33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.same{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.42em;
+    color:#33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.same1{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3em;
+    color:#33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* .same11{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.42em;
+    text-decoration: none;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+} */
+
+.ds #lin{
+    text-decoration: none !important;
+    font-size: larger;
+    font-weight: 600;
+}
+.ds #lin:hover{
+    text-decoration:underline !important;
+}
+.pfix{
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: large;
+}
+.parasame{
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.36em;
+    color:#33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.listpara{
+    /* color:#33475b; */
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.61111em;
+}
