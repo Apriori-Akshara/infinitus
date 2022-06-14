@@ -117,6 +117,8 @@
         </div>
     </div>
 </div>
+
+
 <!-- location part -->
 <div class="container mt-4">
     <div class="row text-center">
@@ -139,7 +141,7 @@
             </iframe>
         </div>
     </div>
-    <div class="col-lg-4 py-4"
+    <div class="col-lg-4 py-4" id="margintops"
     style="background-color:#eaeef8;margin-left:-12px; box-sizing: border-box;height:490px;"
     >
         <div class="row">
@@ -187,6 +189,58 @@
     </div>
     </div>
 </div>
+
+
+<!-- arrow toggle -->
+<div class="container my-5">
+    <div class="row text-start">
+        <h1 class="find" onclick="tokeCall()"> 
+
+  <!-- arrow down -->
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" id="hides"
+   width="25"
+    height="25"
+     fill="lightblue" 
+     class="bi bi-caret-down-fill"
+      viewBox="0 0 16 16">
+    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+  </svg> -->
+<!-- arrow left -->
+            <svg xmlns="http://www.w3.org/2000/svg" id="shame"
+             width="25"
+             height="25" 
+             fill="lightblue" 
+            class="bi bi-caret-right-fill"
+            viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg>
+      How to find this office
+        </h1>
+    </div>
+
+    <div class="row" id="alltogle">
+        <div class="row toggles">
+            <p>
+                <span> Driving:</span>Refer to directions provided by <a href="">Google Maps.</a>
+            </p>
+        </div>
+        <div class="row toggles">
+            <p>
+              <span> Public Transportation: </span>The closest option for public transportation is <a href=""> Lechmere Station</a> on MBTA’s Green Line, which is two blocks away and offers frequent subway and bus service. <a href="">Kendall Station</a> , which is on the MBTA’s Red Line, is also a 10 to 15-minute walk from our office.
+            </p>
+        </div>
+        <div class="row toggles">
+            <p>
+               <span> Parking:</span> We recommend parking in the First Street Garage, which is right next door to the office. Entrance is on Spring Street near First Street. Find more pricing and location information <a href="">here</a>.
+            </p>
+        </div>
+        <div class="row toggles">
+            <p>
+                The Cambridgeside Galleria parking garage is also an option, though it can be confusing to navigate for first-time visitors. Entrance is on First Street between Best Buy and Sears. Find more pricing and location information <a href="">here</a>.
+            </p>
+        </div>
+    </div>
+</div>
 <!-- How to find this office -->
 
 <div class="container-fluid mt-5 py-5" id="offices"
@@ -195,7 +249,81 @@ style="background-color:#eaeef8;"
  <!-- get data from office.js -->
 
 </div>
+
+<!-- Call Sales using one of our local numbers -->
+<div class="container my-5">
+    <div class="row text-center">
+        <h2 class="call">
+            Call Sales using one of our local numbers
+        </h2>
+    </div>
+    <div class="row text-center my-5">
+<p id="america">
+    Americas
+</p>
+    </div>
+</div>
+
+<!-- phone no under america -->
+<!-- america -->
+<div class="container">
+    <div class="row justify-content-between" id="phonedata">
+       <!-- get data from phone.js -->
+
+    </div>
+</div>
+<!-- europe -->
+<div class="container">
+    <div class="row text-center my-5">
+        <p id="america">
+            Europe
+        </p>
+            </div>
+
+ <div class="row justify-content-between" id="phonedataEuro">
+       <!-- get data from phone.js -->
+         
+       </div>     
+</div>
+<!-- Asia Pacific -->
+<div class="container">
+    <div class="row text-center my-5">
+        <p id="america">
+            Asia Pacific
+        </p>
+            </div>
+
+ <div class="row justify-content-between" id="phonedataAsia">
+       <!-- get data from phone.js -->
+         
+       </div>     
+</div>
+
+
+
 <script src="./JSX/menu.js"></script>
 <script src="./JSX/office.js"></script>
+<script src="./JSX/phone.js"></script>
+<script>
+    
+var vals= false;
+
+function tokeCall(){
+    if(!vals){
+        vals=true;
+       
+        document.getElementById('alltogle').style.display="block";
+        document.getElementById('hides').style.display="block";
+        // document.getElementById('shame').style.display="none";
+    }else{
+        vals=false;
+      
+        document.getElementById('alltogle').style.display="none";
+        document.getElementById('hides').style.display="none";
+        // document.getElementById('shame').style.display="block";
+}
+     
+}
+</script>
 </body>
 </html>
