@@ -191,11 +191,44 @@
 .link p a{
     text-decoration: none;
     font-size:smaller;
-    color: #cbd6e2;
+    color: #cbd6e2 ;
     font-weight: 400;
 
 }
 .link p a:hover{
     text-decoration: underline;
+    color: hwb(211 33% 5%);
+}
+#before svg{
+    margin:0 18px;
+}
+#borderHw{
+    border-top: 1px solid #cbd6e2 !important;
+    margin-top: 13px;
 }
 
+.oneLine ul{
+    text-align: center !important;
+    margin:0 auto !important;
+    justify-content: center;
+    align-items: center;
+}
+.oneLine ul li{
+list-style-type: none;
+float: left;
+margin: auto;
+}
+
+.oneLine ul li a{
+    color: white;
+    margin: 0 9px;
+}
+.hub h1{
+    color:white;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.copy span{
+    font-weight: 200;
+}
