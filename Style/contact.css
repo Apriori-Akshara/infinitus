@@ -208,10 +208,12 @@
 }
 
 .oneLine ul{
-    text-align: center !important;
+    /* text-align: center !important;
     margin:0 auto !important;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    background-color: #ff7a59 !important;
+    margin:0 50px !important;
 }
 .oneLine ul li{
 list-style-type: none;
@@ -231,4 +233,14 @@ margin: auto;
 }
 .copy span{
     font-weight: 200;
+}
+.backCut{
+    /* background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-image: url('../Images/contact1.png');
+    height: 380px; */
+    position: relative;
+    left: 310px;
+    width:600px !important;
+    /* top:30px; */
 }
