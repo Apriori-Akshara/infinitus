@@ -239,8 +239,7 @@ margin: auto;
     background-size: cover !important;
     background-image: url('../Images/contact1.png');
     height: 380px; */
-    position: relative;
-    left: 310px;
+    
     width:600px !important;
     /* top:30px; */
 }
