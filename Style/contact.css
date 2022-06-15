@@ -183,3 +183,19 @@
     line-height: 1.2em;
     letter-spacing: 2px;
 }
+.foot p{
+    font-size:medium;
+    color: white;
+    font-weight: 700;
+}
+.link p a{
+    text-decoration: none;
+    font-size:smaller;
+    color: #cbd6e2;
+    font-weight: 400;
+
+}
+.link p a:hover{
+    text-decoration: underline;
+}
+
