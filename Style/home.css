@@ -531,3 +531,21 @@ margin-left:-160px;
         position: relative !important;
         bottom: 80px !important;
     }
+
+    /* CSS FOR DROPDOWN */
+     .dropdown{
+        position: relative;
+     }
+     
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #ffd300;
+        padding:20px 30px;
+       justify-content: center;
+        z-index:9999;
+
+    }
+    .dropdown:hover .s .dropdown-content{
+        display: block !important;
+    }
