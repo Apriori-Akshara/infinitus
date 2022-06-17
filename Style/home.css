@@ -70,25 +70,22 @@
     border: none !important;
   
     outline: none !important;
-    width: 100% !important;
-    transition: width 0.5s,height 0.5s !important;
-    box-shadow: 5px 5px white !important;
+    width: 98% !important;
+    /* transition: width 1s,height 1s !important; */
+    box-shadow: 50px 50px 25px 30px white !important;
 }
-/* @media (max-width:1075px) and (min-width:768px) {
-    .takeswh{
-        height: 530px !important;
-    }
-} */
+
 
 
 .takeswh:hover{
 
 height:630px !important;
-box-shadow: 50px 50px white !important;
+width: 100% !important;
+/* box-shadow: 50px 50px white !important; */
 }
 .firehw{
-    height: 100px !important;
-    width: 100px !important;
+    height: 110px !important;
+    width: 110px !important;
     margin: 0 auto !important;
 }
 .upMt{
@@ -112,19 +109,24 @@ box-shadow: 50px 50px white !important;
     margin-top: 200px !important;
 }
 .takeswhA{
-    height: 150px !important;
+    height: 220px !important;
     border: none !important;
     outline: none !important;
     width: 100% !important;
-    transition: width 0.5s,height 0.5s !important;
-    box-shadow: 5px 5px white !important;
+    /* transition:1.1s all !important; */
+    box-shadow: 0 0 20px 0 rgb(221 221 221 / 50%) !important;
     /* align-items: center !important; */
     justify-content: center !important;
+    /* transform: matrix(); */
+   
     
     
 }
 .takeswhA:hover{
-    box-shadow: 50px 50px white !important;
+    box-shadow: 50px 20px 30px 0 rgb(221 221 221 / 50%) !important;
+    /* height: 223px !important; */
+ 
+   
     }
     .lastClip{
         position: relative !important;
@@ -220,6 +222,16 @@ nav ul li a:hover{
 }
 #click:checked ~ .menu-btn i:before{
     content: '\f00d' !important; 
+}
+
+/* css for nav button */
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight:bolder !important;
+    width: 25px !important;
+    height: 25px !important;
+    margin-top:24px !important;
 }
 
 #nonebut991block{
@@ -580,3 +592,24 @@ margin-left:-160px;
             height: 920px !important;
         }
     }
+
+    /* #butFixdA{
+        display:block;
+    } */
+
+    #clips{
+        clip-path: ellipse(35% 31% at 50% 54%) !important;
+        background-color: white !important;
+        padding:40px 30px 30px 30px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        text-align: center !important;
+
+
+    }
+
+    /* .fa-bars{
+        font-weight: bolder !important;
+        color: black !important;
+    } */

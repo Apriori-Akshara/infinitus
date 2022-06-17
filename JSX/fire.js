@@ -8,7 +8,7 @@ const fires=[
     },
     {
         id:"2",
-        src:"./Images/heart.svg",
+        src:"./Images/heartB.svg",
         title1:"312k",
         title2:"People supported",
       
@@ -32,17 +32,17 @@ fires.map((item,index)=>(
     </div>
     <div class="row text-center mt-3">
       <h1
-    style="color:#ffd300;font-weight:bolder;font-size:3rem;font-family:'Titan One',cursive;"
+    style="color:#ffd300;font-weight:bolder;font-size:4rem;font-family:'Titan One',cursive;"
       >
           ${item.title1}
       </h1>
     </div>
     <div class="row text-center">
-      <h5
-      style="font-weight:700 ;font-size: x-large;font-family:'Titan One',cursive;"
+      <p
+      style="font-weight:100 ;font-size: x-large;font-family:'Titan One',cursive;"
       >
       ${item.title2}
-      </h5>
+      </p>
     </div>
 </div>  
       `
