@@ -82,7 +82,7 @@
     color: #ffd300 !important;
 }
 .takeswh{
-    height: 610px !important;
+    height: 660px !important;
    
     border: none !important;
   
@@ -96,7 +96,7 @@
 
 .takeswh:hover{
 
-height:630px !important;
+height:680px !important;
 width: 100% !important;
 /* box-shadow: 50px 50px white !important; */
 }

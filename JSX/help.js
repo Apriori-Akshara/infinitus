@@ -25,14 +25,14 @@ helpZ.map((item,index)=>(
             <img src=${item.src} alt="partner" class="img-fluid imHw">
         </div>
         <div class="row text-center mt-3">
-                 <h4>
+                 <h3>
              ${item.title1}
-                 </h4>
+                 </h3>
         </div>
         <div class="row text-center mt-3 px-3">
-                  <h5>
+                  <h4>
                   ${item.title2}
-                  </h5>
+                  </h4>
         </div>
         <div class="row text-center mt-3">
          <img src="./Images/yelloarro.svg" alt="arrow" class="img-fluid arrowHw">
