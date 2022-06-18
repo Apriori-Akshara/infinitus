@@ -29,10 +29,13 @@ helpZ.map((item,index)=>(
              ${item.title1}
                  </h3></b>
         </div>
-        <div class="row text-center mt-3 px-3">
-                  <h4>
-                  ${item.title2}
-                  </h4>
+        <div class="row text-center justify-content-center mt-3 px-3">
+        <div class="complements">
+        <h4>
+        ${item.title2}
+        </h4>
+        </div>
+                  
         </div>
         <div class="row text-center mt-3">
          <img src="./Images/yelloarro.svg" alt="arrow" class="img-fluid arrowHw">

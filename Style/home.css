@@ -69,7 +69,7 @@
     width:230px !important;
 }
 .topmt{
-    margin-top:5.2vmax !important;
+    margin-top:2.2vmax !important;
     
 }
 
@@ -87,23 +87,25 @@
     color: #ffd300 !important;
 }
 .takeswh{
-    height: 630px !important;
+    height: 650px !important;
    
     border: none !important;
   
     outline: none !important;
-    width: 88% !important;
+    width: 90% !important;
     /* transition: width 1s,height 1s !important; */
     box-shadow: 50px 50px 25px 30px white !important;
     margin: 0 auto !important;
 }
 
-
+.topmt22{
+    margin-top: 9.4vmax !important;
+}
 
 .takeswh:hover{
 
-height:650px !important;
-width: 90% !important;
+height:640px !important;
+width: 93% !important;
 /* box-shadow: 50px 50px white !important; */
 }
 .firehw{
@@ -624,4 +626,9 @@ margin-left:-160px;
         background: #ffd300 !important;
         border: 4px solid white !important;
        
+    }
+    .complements{
+        width:550px !important;
+        /* border: 1px solid green; */
+        margin: 0 auto;
     }
