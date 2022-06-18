@@ -614,7 +614,7 @@ margin-left:-160px;
   
 
     /* css owl carsoul button */
-    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots  span {
         background: #ffd300 !important;
         border: 4px solid white !important;
        
