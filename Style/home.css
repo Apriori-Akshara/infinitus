@@ -431,7 +431,7 @@ strong::after{
 
 @keyframes crisis {
     25%{
-        transform: translateY(650px);
+        transform: translateY(450px);
     }
     50%{
         transform: translateY(0);
