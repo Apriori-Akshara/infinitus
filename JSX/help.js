@@ -24,10 +24,10 @@ helpZ.map((item,index)=>(
         <div class="row">
             <img src=${item.src} alt="partner" class="img-fluid imHw">
         </div>
-        <div class="row text-center mt-3">
-                 <h3>
+        <div class="row text-center my-4" style="font-weight: bold;">
+                 <h3><b>
              ${item.title1}
-                 </h3>
+                 </h3></b>
         </div>
         <div class="row text-center mt-3 px-3">
                   <h4>

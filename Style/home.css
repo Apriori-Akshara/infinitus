@@ -72,6 +72,11 @@
     margin-top:12.2vmax !important;
     
 }
+
+.topmt1{
+    margin-top:9.2vmax !important;
+    
+}
 .uptop{
     margin-bottom: 100px !important;
 }
@@ -87,7 +92,7 @@
     border: none !important;
   
     outline: none !important;
-    width: 92% !important;
+    width: 88% !important;
     /* transition: width 1s,height 1s !important; */
     box-shadow: 50px 50px 25px 30px white !important;
     margin: 0 auto !important;
@@ -98,7 +103,7 @@
 .takeswh:hover{
 
 height:650px !important;
-width: 94% !important;
+width: 90% !important;
 /* box-shadow: 50px 50px white !important; */
 }
 .firehw{
