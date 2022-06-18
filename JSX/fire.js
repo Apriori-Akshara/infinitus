@@ -31,14 +31,14 @@ fires.map((item,index)=>(
      <img src=${item.src} class="img-fluid firehw">
     </div>
     <div class="row text-center mt-3">
-      <h1
+      <h1 id="dollar"
     style="color:#ffd300;font-weight:bolder;font-size:4rem;font-family:'Titan One',cursive;"
       >
           ${item.title1}
       </h1>
     </div>
     <div class="row text-center">
-      <p
+      <p id="dollarTitle"
       style="font-weight:100 ;font-size: x-large;font-family:'Titan One',cursive;"
       >
       ${item.title2}

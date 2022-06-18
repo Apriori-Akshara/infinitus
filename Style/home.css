@@ -137,8 +137,9 @@ width: 93% !important;
     height: 220px !important;
     border: none !important;
     outline: none !important;
-    width: 100% !important;
-    /* transition:1.1s all !important; */
+    width: 90% !important;
+    margin: 0 auto !important;
+    transition:1.1s all !important;
     box-shadow: 0 0 20px 0 rgb(221 221 221 / 50%) !important;
     /* align-items: center !important; */
     justify-content: center !important;
@@ -149,7 +150,8 @@ width: 93% !important;
     
 }
 .takeswhA:hover{
-    box-shadow: 50px 20px 30px 0 rgb(221 221 221 / 50%) !important;
+    width: 91% !important;
+    box-shadow: 30px 0px 80px 0 rgb(221 221 221 / 50%) !important;
     /* height: 223px !important; */
  
    
@@ -332,20 +334,15 @@ nav ul li a:hover{
         line-height:30px !important;
         font-weight: bolder !important;
     }
-    #backImg{
+    /* #backImg{
        height: 60vh !important;
-    }
+    } */
     .mobileFont{
         font-size: 2.6rem !important;
     }
 
 }
-@media (max-width:425px) {
-    #backImg{
-        max-height: 50vh !important;
-        min-height: 40vh !important;
-     }
-}
+
 .slider2hw{
     height: 560px;
 }
@@ -486,7 +483,7 @@ background-repeat: no-repeat;
 background-position: center bottom;
 margin-left:-160px;
 }
-#yelarro:after{
+#yelarro:after,#yelarro1:after,#yelarro2:after{
    
     content: '';
     clear: both;
@@ -558,6 +555,15 @@ margin-left:-160px;
         left: 0px;
         z-index: 999999999;
     }
+
+    @media (max-width:667px) {
+        .arroSet::after,.arroSet::before,.arroFix::before,.arroFix::after{
+            background-image:none;
+        }
+        #closed{
+            display: none !important;
+        }
+    }
     .owl-theme .owl-dots .owl-dot span {
         width: 15px !important;
         height: 15px !important;
@@ -571,26 +577,7 @@ margin-left:-160px;
         bottom: 80px !important;
     }
 
-    /* CSS FOR DROPDOWN */
-     .dropdown{
-        position: relative;
-     }
-     
-    .dropdown-content{
-        display: none;
-        position: absolute;
-        background-color: #ffd300;
-        /* background-color: aquamarine; */
-        padding:20px 10px;
-       justify-content: center;
-        z-index:9999;
-        max-width: 490px !important;
-        min-width: 100px !important;
-
-    }
-    .dropdown:hover .s .dropdown-content{
-        display: block !important;
-    }
+  
 
     @media (min-width:1500px) {
         .takeswh{
@@ -633,3 +620,184 @@ margin-left:-160px;
         /* border: 1px solid green; */
         margin: 0 auto;
     }
+
+
+    /* use media for mobile view at 425px */
+    @media (max-width:425px) {
+        #yelarro{
+            font-size:3rem !important;
+            font-weight: 100 !important;
+            margin-top: 50px !important;
+        }
+        #yelarro1{
+            font-size:2.1rem !important;
+            
+            margin-top: 50px !important;
+        }
+        #mobileCard{
+            height: 550px !important;
+            width: 95% !important;
+            margin: 30px auto !important;
+        }
+        /* #mobileCard:hover{
+            width:96% !important;
+        } */
+
+        #dollar{
+            font-size: 3rem !important;
+            font-weight: 100 !important;
+        }
+        #dollarTitle{
+            font-size:larger !important;
+            font-weight:0 !important;
+        }
+        #makechangeMobile{
+            font-size:3rem !important;
+            font-weight: 100 !important;
+        }
+        #lastCard11{
+            height: 300px !important;
+            width: 90% !important;
+            margin: 20px auto !important;
+        }
+        #at425hwimgs{
+            height: 120px;
+            width: 120px;
+            /* margin-top: 10px; */
+        }
+        #yelarro2{
+            font-size: 2.6rem !important;
+            font-weight: 100 !important;
+            text-align: center !important;
+        }
+        #footerFont1{
+            font-size: 1.9rem !important;
+            font-weight: 100 !important;
+            margin-top: 50px !important;
+            margin-bottom: 20px !important;
+
+        }
+        #footerFont2{
+            font-size: 1rem !important;
+            font-weight: 500 !important;
+            margin-bottom: 20px !important;
+            text-align: center !important;
+
+        }
+      
+        #footerFont3{
+           text-align: center !important;
+           justify-content: center !important;
+           align-items: center !important;
+           margin-top: 20px;
+           
+        }
+        #footerFont4{
+            text-align: center !important;
+            justify-content: center !important;
+            align-items: center !important;
+            align-items: center !important;
+            
+         }
+         #footNav ul li a{
+           color:white !important;
+           font-weight: 500 !important;
+           font-size: medium !important;
+            
+         }
+         #logoNone{
+            display: block !important;
+          } 
+          
+          #logoNoneat425{
+            display: none !important;
+          }
+
+          /* #backImg{
+            max-height: 50vh !important;
+            min-height: 40vh !important;
+         } */
+         #fuel{
+            font-size: 1.1rem !important;
+            font-weight: 700 !important;
+            
+         }
+         #impo,#impo111{
+            font-weight: 800 !important;
+         }
+         #cenDoA{
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            text-align: center !important;
+          
+            position: relative !important; 
+            bottom: 50px !important;
+         }
+         .mobileFont_for_mobile{
+            font-size: 3rem !important;
+            font-weight: bolder !important;
+            font-family:'Titan One',cursive !important;
+            color:white ;
+            font-weight:500 !important;
+            word-spacing: 6px;
+            line-height: 40px;
+            letter-spacing: 1px;  
+            display: block !important;
+         }
+
+         #botArro19:after{
+            content: '';
+            display: block;
+            height: 30px;
+            background-image: url(../Images/longArro.svg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            /* margin-left:-160px; */
+            }
+
+         .mobileFont{
+           display: none !important;
+          }
+          nav ul li a{
+            margin: 0px auto;
+            line-height: 70px !important;
+          }
+        }
+
+   
+#botArro19{
+    display: none;
+}
+    #logoNone{
+        display:none;
+      }
+.mobileFont_for_mobile{
+    display:none;
+}
+
+#footerFont2 a{
+    color: white !important;
+}
+#ups{
+    margin-top: 60px !important;
+  
+}
+.topmt2223{
+    margin-top: 120px !important;
+}
+
+@media (max-width:330px) {
+    .owl-theme .owl-dots .owl-dot span {
+        width: 15px !important;
+        height: 15px !important;
+        margin: 5px 7px !important;
+        background:white !important;
+        display: block !important;
+        -webkit-backface-visibility: visible !important;
+        transition: opacity .2s ease !important;
+        border-radius: 30px !important;
+        position: relative !important;
+        bottom: 20px !important;
+    }
+}
