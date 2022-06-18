@@ -82,22 +82,23 @@
     color: #ffd300 !important;
 }
 .takeswh{
-    height: 660px !important;
+    height: 630px !important;
    
     border: none !important;
   
     outline: none !important;
-    width: 98% !important;
+    width: 92% !important;
     /* transition: width 1s,height 1s !important; */
     box-shadow: 50px 50px 25px 30px white !important;
+    margin: 0 auto !important;
 }
 
 
 
 .takeswh:hover{
 
-height:680px !important;
-width: 100% !important;
+height:650px !important;
+width: 94% !important;
 /* box-shadow: 50px 50px white !important; */
 }
 .firehw{
