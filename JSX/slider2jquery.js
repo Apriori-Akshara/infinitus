@@ -3,8 +3,9 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
 
         loop:true,
-        margin:2,
+        // margin:0,
         // nav:true,
+        mouseDrag:false,
         autoplay:true,
         autoplayTimeout:5000,
         animateOut:'fadeOut',

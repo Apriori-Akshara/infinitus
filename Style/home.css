@@ -45,11 +45,28 @@
     display: inline-block !important;
     transition: width 1s !important;
 }
+
+
+.takes11{
+    background-color: white !important;
+    color: black !important;
+    font-size: x-large !important;
+    border-radius: 40px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    margin: 0 auto !important;
+    width: 220px !important;
+    display: inline-block !important;
+    transition: width 1s !important;
+}
 #impo{
     background-color: #ffd300 !important;
 }
 .takes1:hover{
     width:285px !important;
+}
+.takes11:hover{
+    width:230px !important;
 }
 .topmt{
     margin-top:12.2vmax !important;
@@ -486,8 +503,9 @@ margin-left:-160px;
     height: 320px;
     display: block;
     top:120px;
-   right:0;
+    right:-20px;
     transform: rotate(180deg);
+    z-index: 99999999;
     }
     .arroSet::before{
         content: '';

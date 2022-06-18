@@ -56,7 +56,7 @@ slider1.map((item,index)=>(
             </p>
             </div>
          <div class="row text-center">
-              <button class="btn takes">
+              <button class="btn takes11">
               Donate Now <img src="./Images/arro.svg" alt="arrow" class="img-fluid fixhwjsd">
               </button>
          </div>
