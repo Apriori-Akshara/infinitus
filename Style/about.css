@@ -7,11 +7,11 @@
 }
 .mobileFont1{
     font-family:'Titan One',cursive !important;
-    color:white ;
+    color:black ;
     font-weight:300;
     font-size: 3.2rem;
     word-spacing: 6px;
-    line-height: 80px;
+    line-height: 60px;
     letter-spacing: 1px;
 }
 #botArro1:after{
@@ -94,4 +94,92 @@
      text-align: center !important;
      margin:0 auto !important;
  }
+}
+
+@media (max-width:425px) {
+    #at425view{
+        text-align: center !important;
+        
+        
+    }
+    #botArro1{
+        font-size:1.9rem !important;
+        position: relative !important;
+        bottom: 80px !important;
+    }
+    .cen425{
+text-align: center !important;
+
+position: relative;
+bottom: 100px;
+    }
+    .para{
+font-size: larger !important;
+font-weight: 400 !important;
+    }
+    #botArro11{
+        font-size: 2.3rem !important;
+        line-height: 45px;
+        margin-top: 50px !important;
+        font-weight: 600 !important;
+    }
+    #mrtakeat425{
+        margin-top: 30px !important;
+    }
+    #hideat425{
+        display: none !important;
+    }
+    #mtTake425{
+position: relative !important;
+bottom: 100px !important;
+    }
+    .mobileFont111{
+        font-size: 1.7rem !important;
+        font-weight: 600 !important;
+    }
+    .cenDos{
+        position: relative !important;
+        bottom: 80px !important;
+    }
+    #parashape{
+        font-weight: 500 !important;
+        font-size:1rem !important;
+    }
+    .mobileFont111{
+        font-weight: 100 !important;
+        font-size:1.9rem !important;
+    }
+    #lastShape{
+        font-size: 1rem !important;
+        margin-top: 30px !important;
+        font-weight: 500 !important;
+    }
+    #parents{
+        margin-top: 10px !important;
+    }
+    .mobileFont1111,.mobileFont111{
+        font-size: 1.5rem !important;
+        font-weight: 500 !important;
+        line-height: 30px !important;
+    }
+    #disNoneat425{
+display: none !important;
+    }
+    
+#disat425{
+    display:block !important;
+    margin-top: -40px !important;
+    }
+    #topat425{
+        margin-top: 10px !important;
+    }
+    
+}
+
+
+#disat425{
+display: none;
+}
+#opposite{
+    transform:rotate(180deg);
 }
