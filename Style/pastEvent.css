@@ -127,11 +127,7 @@ color: #502D2D;
     font-size: 45px;
 
 }
-.topsDo{
-    position: absolute;
-    top:200px;
-    left: 200px;
-}
+
 .design1{
     font-family: 'Fraunces',serif !important;
     color: #FFFFFF !important;
@@ -145,4 +141,19 @@ color: #502D2D;
 .design1:hover{
     background-color:rgb(238, 9, 238) !important;
     width:245px !important;
+}
+
+#joins{
+    justify-content: center !important;
+    align-items: center !important;
+    background-image: url('../Images/books.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh !important;
+    opacity: 0.9;
+
+}
+
+.topsDo{
+    transform: translateY(100%) !important;
 }
