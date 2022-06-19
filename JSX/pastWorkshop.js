@@ -79,8 +79,8 @@ const work=[
 const shop=document.getElementById("butt");
 work.map((item,index)=>(
     shop.innerHTML += `
-    <div class="row dynamics" key=${index}  onclick="eventCall('${item.what}','${item.when}','${item.where}','${item.details}','${item.registration}','${item.id}')">
-    <p>
+    <div id="space" class="row dynamics" key=${index}  onclick="eventCall('${item.what}','${item.when}','${item.where}','${item.details}','${item.registration}','${item.id}')">
+    <p  onclick='helloCall()'>
         ${item.date}
     </p>
 </div>
@@ -96,3 +96,16 @@ document.getElementById('zoom').innerHTML=where;
 document.getElementById('have').innerHTML=details;
 document.getElementById('closed').innerHTML=registration;
 }
+
+
+function helloCall(){
+ 
+    document.getElementById('conBorder').style.borderLeft='none';
+    
+    
+}
+document.getElementById('space').style.borderLeft='1px solid grey';
+    document.getElementById('space').style.borderLeft='1px solid grey';
+    document.getElementById('space').style.borderTop='1px solid grey';
+    document.getElementById('space').style.borderBottom='1px solid grey';
+    document.getElementById('space').style.backgroundColor='#E4E4E4';
