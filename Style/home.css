@@ -763,6 +763,17 @@ margin-left:-160px;
             margin: 0px auto;
             line-height: 70px !important;
           }
+          #ups{
+            display: none !important;
+          }
+
+          #borNone{
+            border-left:none !important;
+        }
+        #borderHw{
+            display: none !important;
+        }
+        
         }
 
    
@@ -814,4 +825,7 @@ margin-left:-160px;
 .links p a:hover{
     text-decoration: underline;
     color:white;
+}
+#borNone{
+    border-left:1px solid white;
 }
