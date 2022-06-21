@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    position: relative !important;
 }
 .para1 p{
     color: #FFFFFF;
@@ -180,3 +181,24 @@ color: #502D2D;
     border-left: 1px solid grey;
 }
 
+#botArro:after{
+    content: '';
+    display: block;
+    height: 40px;
+    
+    background-image: url(../Images/longArro.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px !important;
+    margin-right:440px;
+    }
+
+
+    .rtV{
+        clip-path: polygon(100% 73%, 0% 100%, 100% 100%);
+        position:absolute;
+        bottom: 0;
+        background-color: #ffd300;
+        width: 100%;
+        height: 280px;
+    }

@@ -88,14 +88,22 @@
 }
 .takeswh{
     height: 650px !important;
-   
     border: none !important;
-  
     outline: none !important;
     width: 90% !important;
     /* transition: width 1s,height 1s !important; */
     box-shadow: 50px 50px 25px 30px white !important;
     margin: 0 auto !important;
+}
+.at767mt{
+    height: 670px !important;
+
+}
+@media (min-width:1820px) {
+    .at767mt{
+        height: 800px !important;
+    
+    }
 }
 
 .topmt22{
@@ -104,8 +112,9 @@
 
 .takeswh:hover{
 
-height:653px !important;
-width: 93% !important;
+/* height:653px !important; */
+width: 94% !important;
+margin: 10px auto !important;
 /* box-shadow: 50px 50px white !important; */
 }
 .firehw{
