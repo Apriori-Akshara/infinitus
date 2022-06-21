@@ -19,7 +19,7 @@ const helpZ=[
 const datasA=document.getElementById("one");
 helpZ.map((item,index)=>(
     datasA.innerHTML += `
-    <div class="col-md-6 at767mt">
+    <div class="col-md-6 at767mt" id='onlyThis'>
     <div class="card shadow takeswh" id="mobileCard">
         <div class="row">
             <img src=${item.src} alt="partner" class="img-fluid imHw">

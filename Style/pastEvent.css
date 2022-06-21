@@ -202,3 +202,37 @@ color: #502D2D;
         width: 100%;
         height: 280px;
     }
+
+    @media (max-width:991px) {
+        #darkgrey6{
+            border: none !important;
+        }
+        .h3head{
+          align-items: center !important;
+            text-align: center !important;
+        }
+    }
+    .h3head{
+        text-align: end;
+    }
+
+    @media (max-width:575px) {
+       
+        .h3head h4{
+          font-size:x-large !important;
+        }
+    }
+
+    @media (max-width:425px) {
+       
+        .para11 blockquote{
+            text-align: center;
+            margin-top: 10px !important;
+        } 
+        #darkgrey6{
+            margin-top: 10px !important;
+        }
+        #closed3{
+            display: none !important;
+        }
+    }
