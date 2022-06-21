@@ -21,30 +21,7 @@
 </head>
 <body>
     <!-- navbar section -->
-    <div class="row justify-content-between">
-        <div class="col-2">
-         <a href="index.html" 
-        
-         >
-        
-            <img src="./Images/logoAB.png" alt="logo" class="img-fluid" id="logo">
-         </a>
-        </div>
-        <div class="col-2  text-end justify-content-end mt-1" id="alupper">
-                  
-            <span 
-            style="color:white;font-weight: 800;font-size: x-large;" id="closed"
-            >MENU</span> 
-            <span style="border-radius:70%; background-color:black;" class="p-3" id="clips"
-            >
-            <input type="checkbox" id="click" onclick="tryDo()">
-            <label for="click" class="menu-btn" style="margin:auto;">
-             <i class="fa-solid fa-bars mt-1" style="color:white;"></i>
-            </label>
-            
-         </span>
-     </div>
-      </div>
+  
  <nav id="lasty" >
              
     <ul>
@@ -89,20 +66,49 @@
 </nav>
 <!-- heading -->
 <div class="container-fluid conhw">
+    <div class="row justify-content-between">
+        <div class="col-2">
+         <a href="index.html" 
+        
+         >
+        
+            <img src="./Images/logoAB.png" alt="logo" class="img-fluid" id="logo">
+         </a>
+        </div>
+        <div class="col-2  text-end justify-content-end mt-1" id="alupper">
+                  
+            <span 
+            style="color:white;font-weight: 800;font-size: x-large;" id="closed"
+            >MENU</span> 
+            <span style="border-radius:70%; background-color:black;" class="p-3" id="clips"
+            >
+            <input type="checkbox" id="click" onclick="tryDo()">
+            <label for="click" class="menu-btn" style="margin:auto;">
+             <i class="fa-solid fa-bars mt-1" style="color:white;"></i>
+            </label>
+            
+         </span>
+     </div>
+      </div>
     <div class="row">
-        <div class="col-md-6 mt-5 justify-content-end" id="hhw">
+        <div class="col-md-6 mt-1 justify-content-end" id="hhw">
           <div class="row mt-2">
-           <h1 class="contactheading mx-5">
+           <h1 class="contactheading" style="margin-left: 150px;">
             Get in touch
            </h1>
           </div>
-          <div class="row mt-4 mx-5">
-           <p id="para">
-            Want to get in touch? We'd love to hear from you. Here's how you can reach us...
-           </p>
+          <div class="row g-0" id="at991clo">
+            <div class="col-lg-10">
+                <p id="para" style="margin-left: 150px;">
+                    Want to get in touch? We'd love to hear from you. Here's how you can reach us...
+                   </p>
+            </div>
+           
           </div>
         </div>
-        <div class="col-md-6 text-end">
+        <div class="col-md-6 text-end g-0 at991clo" id="conBack6"
+        style="border-radius: 70%; overflow: hidden;"
+        >
             <img src="./Images/contact1.png" alt="" class="img-fluid backCut">
         </div>
     </div>
@@ -112,7 +118,7 @@
     <div class="row justify-content-around">
         <!-- 1st card -->
         <div class="col-lg-6" >
-            <div class="card text-center justify-content-center py-5" style="width: 32rem; margin: 0 auto;height:430px;">
+            <div class="card text-center justify-content-center py-5" style="width: 34rem; margin: 0 auto;height:430px;" id='phoneCard'>
                 <img src="./Images/phone.svg" class="card-img-top img-fluid imghw" alt="..." >
                 <div class="card-body text-center mt-4">
                   <h5 class="card-title card1hw mt-4">Talk to Sales</h5>
@@ -125,7 +131,7 @@
 
         <!-- 2nd card -->
         <div class="col-lg-6" >
-            <div class="card text-center justify-content-center py-5" style="width: 32rem; margin: 0 auto;height:430px;">
+            <div class="card text-center justify-content-center py-5" id='phoneCard'  style="width: 34rem; margin: 0 auto;height:430px;">
                 <img src="./Images/chat.svg" class="card-img-top img-fluid imghw" alt="..." >
                 <div class="card-body text-center mt-4">
                   <h5 class="card-title card1hw mt-4">Contact Customer Support</h5>
@@ -263,7 +269,7 @@
 </div>
 <!-- How to find this office -->
 
-<div
+<div class="mt-5"
 style="background-color:#f5f8fa;"
 >
 <div class="container mt-5 py-5" id="offices"

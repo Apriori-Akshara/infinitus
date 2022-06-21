@@ -240,6 +240,73 @@ margin: auto;
     background-image: url('../Images/contact1.png');
     height: 380px; */
     
-    width:600px !important;
+    width:900px !important;
     /* top:30px; */
+}
+#conBack6{
+    position:absolute;
+    right: -30px;
+    top:-50px;
+    height: 100vh;
+
+}
+@media (max-width:991px) {
+    .at991clo{
+        display: none !important;
+    }
+}
+
+@media (max-width:425px) {
+    .contactheading,#para{
+        margin-left:5px !important;
+    }
+    #topfix{
+        margin-top: 100px !important;
+    }
+    #phoneCard{
+width: 25rem !important;
+margin-top: 30px !important;
+    }
+    .location{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.42em;
+    }
+    .call{
+        font-size: 1.4rem;
+        font-weight: 700;
+}
+}
+@media (max-width:375px) {
+    #phoneCard{
+        width: 20rem !important;
+        margin-top: 30px !important;
+            }
+}
+
+@media (max-width:320px) {
+    #phoneCard{
+        width: 16rem !important;
+        margin-top: 30px !important;
+            }
+}
+
+@media (max-width:991px) {
+    #topfix{
+        margin-top: 100px !important;
+    }
+    #phoneCard{
+       
+        margin-top: 40px !important;
+            }
+            .contactheading,#para{
+                margin-left:0px !important;
+            }
+}
+
+@media (max-width:560px) {
+    #phoneCard{
+        width: 22rem !important;
+        margin-top: 30px !important;
+            }
 }

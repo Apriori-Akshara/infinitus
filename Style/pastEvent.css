@@ -41,12 +41,12 @@
     /* color: #FFFFFF; */
     font-family: 'Fraunces',serif; 
     font-size: 2rem;
-    color: #5d4251;
+    color:black;
     letter-spacing: 3px;
     
 }
 .our h1{
-    color: #5d4251;
+    color:black;
     font-family: 'Fraunces',serif; 
     font-size: 3.6798rem;
     letter-spacing: 3px;
@@ -56,14 +56,14 @@
     font-family: "Montserrat", Sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #5d4251;
+    color: black;
     font-size: larger;
 }
 .panel h3{
     font-family: "Montserrat", Sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #5d4251;
+    color: black;
     font-size: xx-large;
     font-weight: 400;
 }
@@ -72,13 +72,13 @@
     font-family: "Montserrat", Sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #5d4251;
+    color: black;
     font-size:medium;
   
 }
 .blo blockquote{
     font-family: "Montserrat", Sans-serif;
-    color: #5d4251;
+    color: black;
     font-size:medium;
     font-weight: 300;
 }
