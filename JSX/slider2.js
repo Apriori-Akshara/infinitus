@@ -48,7 +48,7 @@ slider2.map((item,index)=>(
         
           <div class="row text-center marginTop">
              <p id="small0"
-             style="font-size:x-large;font-weight: 500; line-height: 43px;"
+             style="font-size:x-large;font-weight: 500; line-height: 43px;text-align:center !important; position:relative;left:2%;"
              >
              ${item.title2}
  
