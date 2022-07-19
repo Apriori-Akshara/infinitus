@@ -2,30 +2,30 @@ const slider1=[
     {
         id:"1",
       
-        title1:"1Lorem ipsum dolor sit amet consectetur repellat, dignissimos",
-        title2:"1Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title1:"1Lorem ipsum dolor sit amet consectetur ",
+        title2:"1Lorem ipsum dolor sit amet consectetur adipisicing elit. .",
      
        
     },
     {
         id:"2",
        
-        title1:"2Lorem ipsum dolor sit amet consectetur repellat, dignissimos",
-        title2:"2Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title1:"2Lorem ipsum dolor sit amet consectetur repellat",
+        title2:"2Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     },
     {
         id:"3",
       
-        title1:"3Lorem ipsum dolor sit amet consectetur repellat, dignissimos",
-        title2:"3Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title1:"3Lorem ipsum dolor sit amet",
+        title2:"3Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
      
        
     },
     {
         id:"4",
        
-        title1:"4Lorem ipsum dolor sit amet consectetur repellat, dignissimos",
-        title2:"4Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title1:"4Lorem ipsum dolor sit amet consecte",
+        title2:"4Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
   
     

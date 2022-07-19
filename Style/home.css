@@ -96,8 +96,12 @@
     margin: 0 auto !important;
 }
 #onlyThis{
-    height: 670px !important;
+    height: 620px !important;
 
+}
+#onlyThis:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
 }
 @media (min-width:1820px) {
     .at767mt{

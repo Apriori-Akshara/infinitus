@@ -3,7 +3,7 @@ const slider2=[
         id:"1",
         src:"./Images/mary-anne.png.webp",
         title1:" Clair,HartlePower",
-        title2:"1Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title2:"1Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure <br> aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum <br> ullam voluptates error at nisi similique cum non laborum.",
      
        
     },
@@ -11,13 +11,13 @@ const slider2=[
         id:"2",
         src:"./Images/paul.png.webp",
         title1:" Robert,HartlePower",
-        title2:"2Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title2:"2Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Natus harum iure aspernatur architecto, aut, illo veniam ipsam ipsum ullam<br> voluptates error at nisi similique cum non laborum.",
     },
     {
         id:"3",
         src:"./Images/mary-anne.png.webp",
         title1:" Alexa,HartlePower",
-        title2:"3Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title2:"3Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam <br> voluptates error at nisi similique cum non laborum.",
      
        
     },
@@ -25,7 +25,7 @@ const slider2=[
         id:"4",
         src:"./Images/audrey.png.webp",
         title1:"kalark,HartlePower",
-        title2:"4Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum iure aspernatur architecto, maxime facere ut aut, illo veniam ipsam ipsum ullam voluptates error at nisi similique cum non laborum.",
+        title2:"4Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus<br> harum iure aspernatur architaut, illo veniam ipsam ipsum ullam<br> voluptates error at nisi similique cum non laborum.",
     },
   
     
