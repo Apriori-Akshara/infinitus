@@ -2,15 +2,15 @@ const helpZ=[
     {
         id:"1",
         src:"./Images/partner.png",
-        title1:" I am a partner",
-      title2:"Omolola was a midwife and wanted to  Apriori gave her the opportunity to do that. She is now a full-stack Developer at Patchwork Health.",
+        title1:"Academic Tutoring",
+      title2:"At Infinitus, we believe that every child deserves the opportunity to reach their full academic potential.  ",
        
     },
     {
         id:"2",
         src:"./Images/individual.png",
-        title1:"I am aIndividual",
-        title2:"A Business School graduate who wanted to be an entrepreneur, Quitterie had an idea, but needed the tech skills and the right partner to build it with. At Apriori, she found both.",
+        title1:"Weekend Clubs",
+        title2:"Are you ready to unlock your child's potential and foster curiosity and innovation? Our weekend extracurricular clubs are the perfect way to do just that!",
       
     },
     

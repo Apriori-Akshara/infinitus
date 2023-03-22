@@ -1,15 +1,15 @@
 const change=[
     {
         id:"1",
-        src:"./Images/heart.svg",
-        title1:"MAKE A DONATION",
+        src:"join-icon.svg",
+        title1:"JOIN NOW",
      
        
     },
     {
         id:"2",
         src:"./Images/group.svg",
-        title1:"BECOME A PARTNER",
+        title1:"BECOME A TRAINER",
     },
   
     
@@ -22,7 +22,7 @@ change.map((item,index)=>(
             <div class="card shadow takeswhA" id="lastCard11">
                 <div class="row justify-content-around">
                     <div class="col-sm-4 text-center">
-                        <img src=${item.src} alt="" class="img-fluid" id="at425hwimgs">
+                        <img src=${item.src} style="height:120px" alt="" class="img-fluid" id="at425hwimgs">
                         </div>
                         <div class="col-sm-7 text-start">
                             <h3 class="mt-3 changeAt425" id="yelarro2"

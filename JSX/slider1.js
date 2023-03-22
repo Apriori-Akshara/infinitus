@@ -1,63 +1,51 @@
-const slider1=[
-    {
-        id:"1",
-      
-        title1:"1Lorem ipsum dolor sit amet consectetur ",
-        title2:"1Lorem ipsum dolor sit amet consectetur adipisicing elit. .",
-     
-       
-    },
-    {
-        id:"2",
-       
-        title1:"2Lorem ipsum dolor sit amet consectetur repellat",
-        title2:"2Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    },
-    {
-        id:"3",
-      
-        title1:"3Lorem ipsum dolor sit amet",
-        title2:"3Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-     
-       
-    },
-    {
-        id:"4",
-       
-        title1:"4Lorem ipsum dolor sit amet consecte",
-        title2:"4Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    },
-  
-    
-]
+const slider1 = [
+  {
+    id: "1",
 
-const data3=document.getElementById("four");
-slider1.map((item,index)=>(
-    data3.innerHTML += `
+    title2:
+      "Our mission is to provide children with an enriching and gratifying learning experience. Our comprehensive programs are meticulously designed to improve academic performance, foster creativity, and cultivate holistic life skills.",
+  },
+  {
+    id: "2",
+
+    title2:
+      "We are passionate about empowering children to reach their full potential by bringing out their unique talents, strengthening their sense of self, and providing personalised tutoring services that cater to each child's individual needs. Our weekend clubs are specially crafted to offer children an enjoyable and engaging platform to explore their interests and passions. ",
+  },
+  {
+    id: "3",
+
+    title2:
+      "Furthermore, our language programs are an excellent opportunity for children to gain proficiency in a variety of languages, including German, Spanish, and French. Our highly skilled teachers provide engaging and interactive lessons that make the language learning experience fun and exciting.",
+  },
+  {
+    id: "4",
+
+    title2:
+      "We also believe in challenging our students to reach their full potential. That's why we offer Olympiad training programs for various subjects. Our experienced coaches provide rigorous training, preparing students for national and international competitions.",
+  },
+];
+
+const data3 = document.getElementById("four");
+slider1.map(
+  (item, index) =>
+    (data3.innerHTML += `
 
     <div class="item at709Hdec">
-    <div class="row p-5 justify-content-center"
-    style="background-color:#ffd300;height: 540px;"
+    <div class="row p-5 mt-5 justify-content-center"
+    style="background-color:#ffd300;height: 640px;"
     >
         <div class=" col-sm-8 arroSet">
          <div class="row text-center">
-        <h2 class="fontSiz"
-        style="font-weight:800;"
-        >
-      ${item.title1}
-        </h2>
-         </div>
-         <div class="row text-center mt-5">
-            <p class="fontSiz1"
-            style="font-size:x-large;font-weight: 500; line-height: 43px;"
+            <p class="fontSiz1 mt-lg-5"
+            style="font-size:x-large;font-weight: 500; line-height: 43px; height:300px;"
             >
             ${item.title2}
 
             </p>
-            </div>
+            </div> <br> <br>
          <div class="row text-center">
-              <button class="btn takes11">
-              Donate Now <img src="./Images/arro.svg" alt="arrow" class="img-fluid fixhwjsd">
+              <button class="btn takes11 d-none d-sm-block">
+              Join Now <img src="./Images/arro.svg" alt="arrow" class="img-fluid fixhwjsd">
               </button>
          </div>
         </div>
@@ -66,6 +54,5 @@ slider1.map((item,index)=>(
     </div>
 
     
-      `
-))
-
+      `)
+);
