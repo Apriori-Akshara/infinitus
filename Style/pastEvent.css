@@ -29,7 +29,7 @@
     margin: 5px 7px !important;
     background:yellow !important;
     display: block !important;
-    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
     transition: opacity .2s ease !important;
     border-radius: 30px !important;
     position: relative !important;
